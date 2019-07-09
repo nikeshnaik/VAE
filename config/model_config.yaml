@@ -1,0 +1,13 @@
+modelname : Vae_mnist
+data_path : "./data/mnist_test_mod.csv"
+type : test
+seed : 123
+no_epochs : 1
+no_steps : 1560  # 9999/64
+batch_size : 64
+latent_size : 15
+modeldump : "./modelDump/Vae_mnist/"
+max_to_keep : 5
+logs : './logs/'
+learning_rate : 0.0007
+no_examples : 9999
